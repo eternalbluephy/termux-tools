@@ -7,7 +7,7 @@ terminal_width="$(stty size | cut -d" " -f2)"
 if [[ "$terminal_width" =~ ^[0-9]+$ ]] && [ "$terminal_width" -gt 60 ]; then
 
     motd="
- \e[47m                \e[0m  \e[1mWelcome to Termux!\e[0m
+ \e[47m                \e[0m  \e[1mWelcome to Droiddev!\e[0m
  \e[47m  \e[0m            \e[0;37m\e[47m .\e[0m
  \e[47m  \e[0m  \e[47m  \e[0m        \e[47m  \e[0m  \e[1mDocs:\e[0m      \e[4mhttps://termux.dev/docs\e[0m
  \e[47m  \e[0m  \e[47m  \e[0m        \e[47m  \e[0m  \e[1mDonate:\e[0m    \e[4mhttps://termux.dev/donate\e[0m
