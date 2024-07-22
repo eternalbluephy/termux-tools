@@ -47,7 +47,7 @@ select_repository_group() {
     mirror_group="$(cat "$TEMPFILE")"
     rm "$TEMPFILE"
 
-    elif [ "$mirror_group" == "All mirrors" ]; then
+    if [ "$mirror_group" == "All mirrors" ]; then
         echo "[*] All mirrors selected"
         unlink_and_link ${MIRROR_BASE_DIR}/all
 
