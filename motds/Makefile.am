@@ -43,7 +43,7 @@ $(eval $(call process-rule,motd.sh))
 motd:
 	@echo "Creating motd file"
 
-	@echo "Welcome to Termux!" > motd
+	@echo "Welcome to Droiddev!" > motd
 	@echo "" >> motd
 	@echo "Docs:       https://termux.dev/docs" >> motd
 	@echo "Donate:     https://termux.dev/donate" >> motd
